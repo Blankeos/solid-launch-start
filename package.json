@@ -1,0 +1,53 @@
+{
+  "name": "example-with-trpc",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx --bun vinxi dev --host",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "db:generate": "bunx prisma generate",
+    "db:migrate": "prisma migrate dev"
+  },
+  "dependencies": {
+    "@felte/solid": "^1.2.13",
+    "@felte/validator-zod": "^1.0.17",
+    "@kobalte/core": "^0.13.3",
+    "@libsql/kysely-libsql": "^0.3.0",
+    "@lucia-auth/adapter-prisma": "^4.0.1",
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.13.3",
+    "@solidjs/start": "^1.0.1",
+    "@trpc/client": "^11.0.0-rc.396",
+    "@trpc/server": "^11.0.0-rc.396",
+    "@typeschema/valibot": "^0.13.4",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.11",
+    "kysely": "^0.27.3",
+    "kysely-bun-worker": "^0.6.1",
+    "lucia": "^3.2.0",
+    "prisma-kysely": "^1.8.0",
+    "solid-js": "^1.8.17",
+    "solid-sonner": "npm:@blankeos/solid-sonner",
+    "tailwind-merge": "^2.3.0",
+    "vinxi": "^0.3.11",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@iconify-json/line-md": "^1.1.37",
+    "@tanstack/solid-query-devtools": "^5.40.2",
+    "@types/bun": "^1.1.3",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier-plugin-tailwindcss": "^0.6.2",
+    "prisma": "^5.15.0",
+    "tailwindcss": "^3.4.4",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "5.2.2",
+    "unplugin-icons": "^0.19.0",
+    "vite-plugin-solid-svg": "^0.8.1"
+  }
+}
